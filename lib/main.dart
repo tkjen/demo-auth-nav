@@ -5,10 +5,10 @@ import 'screens/register_screen.dart';
 import 'screens/dashboard_screen.dart';
 
 void main() {
-  runApp(MyAuthApp());
+  runApp(MyApp());
 }
 
-class MyAuthApp extends StatelessWidget {
+class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
